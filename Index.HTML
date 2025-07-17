@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>REVUE BRUTALE – art & esthétique contemporaine</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Revue d’art contemporaine francophone – esthétique brutale & décadente">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav aria-label="Menu principal" class="sticky">
+      <a href="index.html" class="active">Accueil</a>
+      <a href="revues.html">Revues</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <h1 class="titre-principal">REVUE<br>BRUTALE</h1>
+      <p class="sous-titre">Revue d’art & d’esthétique contemporaine</p>
+      <button id="entrer" class="btn-chevron" aria-label="Accéder aux revues">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+    </section>
+
+    <!-- REVUES (aperçu 3 dernières) -->
+    <section id="revues" class="grille-revues" aria-labelledby="revues-title">
+      <h2 id="revues-title" class="sr-only">Dernières revues</h2>
+      <!-- générées par JS -->
+    </section>
+  </main>
+
+  <footer>
+    <small>&copy; 2025 Revue Brutale – CC BY-NC-SA 4.0</small>
+  </footer>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>
