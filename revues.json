@@ -1,0 +1,26 @@
+[
+  {
+    "id": "revue-03",
+    "titre": "N°3 – Chair & Chrome",
+    "annee": "2025",
+    "description": "Corpus numériques, mutations organiques et dystopies industrielles.",
+    "cover": "assets/covers/03.jpg",
+    "pdf": "revues/03.pdf"
+  },
+  {
+    "id": "revue-02",
+    "titre": "N°2 – Ruines & Désir",
+    "annee": "2024",
+    "description": "Post-apocalypse et érotisme décadent.",
+    "cover": "assets/covers/02.jpg",
+    "pdf": "revues/02.pdf"
+  },
+  {
+    "id": "revue-01",
+    "titre": "N°1 – Brutalisme Liquide",
+    "annee": "2023",
+    "description": "Première livraison – architectures floues, peinture numérique.",
+    "cover": "assets/covers/01.jpg",
+    "pdf": "revues/01.pdf"
+  }
+]
